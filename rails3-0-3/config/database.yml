@@ -1,0 +1,7 @@
+development:
+  adapter: oracle_enhanced
+  database: //sbr00db57.br-petrobras.com.br:1524/CRP3
+  username: s536
+  password: s536crp3
+
+
