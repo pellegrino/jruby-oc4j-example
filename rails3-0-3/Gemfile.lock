@@ -51,6 +51,8 @@ GEM
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    ffi (0.6.3)
+      rake (>= 0.8.7)
     ffi (0.6.3-java)
     glassfish (1.0.2-java)
       rack (>= 0.4.0)
@@ -66,9 +68,15 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
-    nokogiri (1.4.4-java)
-      weakling (>= 0.0.3)
+    mini_portile2 (2.5.0)
+    nokogiri (1.11.2)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.2-java)
+      racc (~> 1.4)
     polyglot (0.3.1)
+    racc (1.5.2)
+    racc (1.5.2-java)
     rack (1.2.1)
     rack-mount (0.6.13)
       rack (>= 1.0.0)
@@ -106,6 +114,9 @@ GEM
       ffi (~> 0.6.3)
       json_pure
       rubyzip
+    sqlite3 (1.4.2)
+    sqlite3-ruby (1.3.3)
+      sqlite3 (>= 1.3.3)
     steak (1.0.0)
       rspec
     thor (0.14.6)
@@ -117,12 +128,12 @@ GEM
       jruby-rack (>= 1.0.0)
       rake (>= 0.8.7)
       rubyzip (>= 0.9.4)
-    weakling (0.0.4-java)
     xpath (0.1.2)
       nokogiri (~> 1.3)
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
   activerecord-jdbcsqlite3-adapter
